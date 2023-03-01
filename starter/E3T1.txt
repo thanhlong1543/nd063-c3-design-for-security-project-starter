@@ -1,3 +1,7 @@
 # Describe GuardDuty findings that were detected related to the brute force attack
-
+- UnauthorizedAccess:EC2/SSHBruteForce finding. GuardDuty detected that our attack instance is being used to brute force attack our web server instance
 # Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+- To detect unauthorized and unexpected activity in your AWS environment, GuardDuty analyzes and processes data from the sources such as:
+ + AWS CloudTrail event logs
+ + VPC Flow Logs
+ + DNS logs

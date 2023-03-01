@@ -1,5 +1,7 @@
 Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
 
 # Poor practice 1
-
+- The web serivce instance is place in public subnet. So that it can easily access through the internet
 # Poor practice 2
+- The attacker is in un-trusted subnet but still can perform SSH to application server. That mean security group doesn't set up well. Currently sg allows all ip address connect to port 22
+

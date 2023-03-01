@@ -1,13 +1,31 @@
 # Identify tools that will allow you to do the following:
 
 ## Scan infrastructure as code templates
-
+- Checkov
+- TFLint
+- Terrafirma
+- Accurics
+- CloudSploit
 ### Example vulnerability
-
+- Network Exposures
+- Using vulnerable docker image
+- Credentials Exposures
+- Exploitable configurations
 ##Scan AMI’s or containers for OS vulnerabilities
-
+- Harbor
+- JFrog Xray
+- Qualys
+- Docker Scan
+- Clair
+- Anchore
 ### Example vulnerability
-
+- Accidental leaks of tokens or credentials
+- Unexpected malicious packages
 ##Scan an AWS environment for cloud configuration vulnerabilities
-
+AWS Inspector
+AWS Config
+AWS security hub
 ### Example vulnerability
+- Network reachability
+- Data encryption not enabled
+- Least privileged policies not applied
